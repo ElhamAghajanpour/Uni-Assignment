@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5341FF0F-CD16-4958-B44D-B6F46807ED2B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication6</RootNamespace>
+    <AssemblyName>WindowsFormsApplication6</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BookList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookList.Designer.cs">
+      <DependentUpon>BookList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess.cs" />
+    <Compile Include="Exit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exit.Designer.cs">
+      <DependentUpon>Exit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerListbySearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerListbySearch.Designer.cs">
+      <DependentUpon>CustomerListbySearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaxSale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaxSale.Designer.cs">
+      <DependentUpon>MaxSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaxSaleByType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaxSaleByType.Designer.cs">
+      <DependentUpon>MaxSaleByType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchBook.Designer.cs">
+      <DependentUpon>SearchBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaxSaleByName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaxSaleByName.Designer.cs">
+      <DependentUpon>MaxSaleByName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewFactor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewFactor.Designer.cs">
+      <DependentUpon>AddNewFactor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="panel.Designer.cs">
+      <DependentUpon>panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCustomer.Designer.cs">
+      <DependentUpon>AddCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddBook.Designer.cs">
+      <DependentUpon>AddBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddExistingBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddExistingBook.Designer.cs">
+      <DependentUpon>AddExistingBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewBook.Designer.cs">
+      <DependentUpon>AddNewBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerList.Designer.cs">
+      <DependentUpon>CustomerList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FactorList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FactorList.Designer.cs">
+      <DependentUpon>FactorList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BookList.resx">
+      <DependentUpon>BookList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exit.resx">
+      <DependentUpon>Exit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaxSale.resx">
+      <DependentUpon>MaxSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaxSaleByType.resx">
+      <DependentUpon>MaxSaleByType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchBook.resx">
+      <DependentUpon>SearchBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaxSaleByName.resx">
+      <DependentUpon>MaxSaleByName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewFactor.resx">
+      <DependentUpon>AddNewFactor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="panel.resx">
+      <DependentUpon>panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddCustomer.resx">
+      <DependentUpon>AddCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddBook.resx">
+      <DependentUpon>AddBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddExistingBook.resx">
+      <DependentUpon>AddExistingBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewBook.resx">
+      <DependentUpon>AddNewBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerList.resx">
+      <DependentUpon>CustomerList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FactorList.resx">
+      <DependentUpon>FactorList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerListbySearch.resx">
+      <DependentUpon>CustomerListbySearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\2.png" />
+    <Content Include="Resources\ad fa.png" />
+    <Content Include="Resources\bl.png" />
+    <Content Include="Resources\fa.png" />
+    <Content Include="Resources\gb.png" />
+    <Content Include="Resources\gd bye.png" />
+    <Content Include="Resources\gr1.png" />
+    <Content Include="Resources\gr2.png" />
+    <Content Include="Resources\gr3.png" />
+    <Content Include="Resources\gray.png" />
+    <Content Include="Resources\marjani.png" />
+    <Content Include="Resources\orra.png" />
+    <Content Include="Resources\s u.png" />
+    <Content Include="Resources\Untitled-1.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
